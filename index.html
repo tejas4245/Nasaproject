@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>NASA Picture of the Day</title>
+</head>
+
+<body>
+    <div class="img-container">
+        <header>
+            <h1>NASA Picture of the Day</h1>
+        </header>
+
+        <section id="current-image-container">
+
+            <div id="current-image"></div>
+        </section>
+    </div>
+
+    <main>
+
+        <section>
+            <h2>Search for a Picture of The Day</h2>
+            <form id="search-form">
+                Select a date :&nbsp;<input type="date" id="search-input">
+                <button type="submit">Search</button>
+            </form>
+        </section>
+
+        <section>
+            <h2>Previous Search</h2>
+            <ul id="search-history"></ul>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
